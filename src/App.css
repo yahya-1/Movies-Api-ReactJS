@@ -1,0 +1,128 @@
+.butt {
+    background-color: #ecf0f1;
+    border: 1px solid #ced4da;
+}
+
+
+.butt:hover {
+    background-color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+
+.nav-style {
+    height: 90px;
+    background-color: #b45b35;
+}
+
+.logo {
+    height: 72px;
+    width: 78px;
+}
+
+
+.search input:focus {
+    box-shadow: none;
+
+}
+
+
+.card__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: fill;
+}
+
+.card {
+    position: relative;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    height: 375px;
+}
+
+
+.card__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: 0.5s ease;
+    background-color: #393839;
+}
+
+.card:hover .card__overlay {
+    opacity: 0.8;
+}
+
+.overlay__text {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.pagination {
+    --bs-pagination-border-radius: 0;
+}
+
+.borderB {
+    border-radius: 0.365rem;
+}
+
+.card-text-details {
+    color: #555555;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 49px;
+}
+
+.border-bottom {
+    width: 40%;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-details {
+    border-radius: 20px;
+    background-color: #f8f8f8;
+}
+
+.border-bottom2 {
+    display: block;
+    width: 5%;
+    border-bottom: 1px solid #dee2e6;
+
+}
+
+
+.card-text-title {
+    color: #555555;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0;
+
+}
+
+
+.card-story {
+
+    border-radius: 20px;
+    background-color: #f8f8f8;
+}
+
+.img-movie {
+    height: 360px;
+
+    border-radius: 20px;
+}
